@@ -19,3 +19,4 @@ for i in range(1, 21):
 sqs.send_message(QueueUrl=url, MessageBody=json.dumps({"hospital": "H-Recife"}))
 
 print("21 mensagens enviadas com sucesso (20 válidas e 1 inválida).")
+

@@ -251,3 +251,4 @@ Em conformidade com as diretrizes da política institucional do CESAR School (PO
   - Todos os códigos foram executados, depurados e testados localmente no ambiente Docker e Python do autor.
   - As saídas e evidências foram inspecionadas e validadas diretamente contra o comportamento real do ElasticMQ (portas, status da fila e incremento de `ApproximateReceiveCount`).
   - As respostas teóricas foram verificadas em conformidade com as aulas ministradas (Aulas 006 e 007) e a documentação oficial da AWS (*Amazon SQS Developer Guide*).
+

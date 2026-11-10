@@ -6,3 +6,4 @@ services:
     container_name: elasticmq-sqs
     ports:
       - "9324:9324"
+
