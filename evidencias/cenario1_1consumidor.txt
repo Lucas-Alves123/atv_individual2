@@ -1,0 +1,29 @@
+=== CENÁRIO 1: 1 CONSUMIDOR + 1 PRODUTOR ===
+Iniciando publicação de mensagens...
+21 mensagens enviadas com sucesso (20 válidas e 1 inválida).
+
+Consumidor iniciado (PID: 15524). Aguardando mensagens...
+15524 guia G-R-001 H-Recife
+15524 guia G-R-002 H-Recife
+15524 guia G-R-003 H-Recife
+15524 guia G-R-004 H-Recife
+15524 guia G-R-005 H-Recife
+15524 guia G-R-006 H-Recife
+15524 guia G-R-007 H-Recife
+15524 guia G-R-008 H-Recife
+15524 guia G-R-009 H-Recife
+15524 guia G-R-010 H-Recife
+15524 guia G-R-011 H-Recife
+15524 guia G-R-012 H-Recife
+15524 guia G-R-013 H-Recife
+15524 guia G-R-014 H-Recife
+15524 guia G-R-015 H-Recife
+15524 guia G-R-016 H-Recife
+15524 guia G-R-017 H-Recife
+15524 guia G-R-018 H-Recife
+15524 guia G-R-019 H-Recife
+15524 guia G-R-020 H-Recife
+falhou; volta para a fila: mensagem sem requisicaoId {'ApproximateReceiveCount': '1'}
+falhou; volta para a fila: mensagem sem requisicaoId {'ApproximateReceiveCount': '2'}
+falhou; volta para a fila: mensagem sem requisicaoId {'ApproximateReceiveCount': '3'}
+falhou; volta para a fila: mensagem sem requisicaoId {'ApproximateReceiveCount': '4'}

@@ -1,0 +1,28 @@
+=== CENÁRIO 2: 2 CONSUMIDORES CONCORRENTES + 1 PRODUTOR ===
+[CONSUMIDOR 1] Consumidor iniciado (PID: 9364). Aguardando mensagens...
+[CONSUMIDOR 2] Consumidor iniciado (PID: 17812). Aguardando mensagens...
+[CONSUMIDOR 1] 9364 guia G-R-001 H-Recife
+[CONSUMIDOR 2] 17812 guia G-R-002 H-Recife
+[CONSUMIDOR 1] 9364 guia G-R-003 H-Recife
+[CONSUMIDOR 2] 17812 guia G-R-004 H-Recife
+[CONSUMIDOR 1] 9364 guia G-R-005 H-Recife
+[CONSUMIDOR 2] 17812 guia G-R-006 H-Recife
+[CONSUMIDOR 1] 9364 guia G-R-007 H-Recife
+[CONSUMIDOR 2] 17812 guia G-R-008 H-Recife
+[CONSUMIDOR 1] 9364 guia G-R-009 H-Recife
+[CONSUMIDOR 2] 17812 guia G-R-010 H-Recife
+[CONSUMIDOR 1] 9364 guia G-R-011 H-Recife
+[CONSUMIDOR 2] 17812 guia G-R-012 H-Recife
+[CONSUMIDOR 1] 9364 guia G-R-013 H-Recife
+[CONSUMIDOR 2] 17812 guia G-R-014 H-Recife
+[CONSUMIDOR 1] 9364 guia G-R-015 H-Recife
+[CONSUMIDOR 2] 17812 guia G-R-016 H-Recife
+[CONSUMIDOR 1] 9364 guia G-R-017 H-Recife
+[CONSUMIDOR 2] 17812 guia G-R-018 H-Recife
+[CONSUMIDOR 1] 9364 guia G-R-019 H-Recife
+[CONSUMIDOR 2] 17812 guia G-R-020 H-Recife
+[CONSUMIDOR 1] falhou; volta para a fila: mensagem sem requisicaoId {'ApproximateReceiveCount': '1'}
+Iniciando publicação de mensagens...
+21 mensagens enviadas com sucesso (20 válidas e 1 inválida).
+[CONSUMIDOR 2] falhou; volta para a fila: mensagem sem requisicaoId {'ApproximateReceiveCount': '2'}
+[CONSUMIDOR 1] falhou; volta para a fila: mensagem sem requisicaoId {'ApproximateReceiveCount': '3'}

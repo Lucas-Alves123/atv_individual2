@@ -1,0 +1,13 @@
+=== DETALHES E ATRIBUTOS DA FILA GUIA (ELASTICMQ) ===
+QueueUrl: http://localhost:9324/000000000000/guias
+{
+  "ApproximateNumberOfMessagesDelayed": "0",
+  "VisibilityTimeout": "15",
+  "ApproximateNumberOfMessagesNotVisible": "0",
+  "LastModifiedTimestamp": "1794337053",
+  "QueueArn": "arn:aws:sqs:elasticmq:000000000000:guias",
+  "CreatedTimestamp": "1794337053",
+  "ApproximateNumberOfMessages": "1",
+  "ReceiveMessageWaitTimeSeconds": "0",
+  "DelaySeconds": "0"
+}
