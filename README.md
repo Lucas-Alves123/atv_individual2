@@ -1,8 +1,6 @@
-# Atividade Individual 2: Mensageria (Amazon SQS & ElasticMQ)
+# Mensageria com Amazon SQS e ElasticMQ
 
-**Disciplina:** Infraestrutura de Software — ADS — CESAR School (2026.2)  
-**Atividade:** Comunicação assíncrona com fila compatível com Amazon SQS, um produtor e dois consumidores.  
-**Caminho Escolhido:** Caminho A (Recomendado) — ElasticMQ local via Docker, simulando fielmente a API do Amazon SQS.
+Implementação de comunicação assíncrona com fila compatível com Amazon SQS (utilizando ElasticMQ via Docker), com publicação de mensagens por produtor e consumo concorrente por múltiplos consumidores.
 
 ---
 
