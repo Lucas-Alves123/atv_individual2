@@ -213,32 +213,7 @@ Se o consumidor apagasse a mensagem **antes** de processá-la e ocorresse uma fa
 
 ---
 
-## 6. Roteiro Sugerido para o Vídeo de Apresentação (até 3 minutos)
-
-Para gravação da tela (OBS Studio, Loom ou Xbox Game Bar `Win + G`):
-
-- **0:00 a 0:30 — Apresentação e Arquitetura:**
-  - Mostre a tela com o terminal e o arquivo `docker-compose.yml` / comando Docker.
-  - Explique brevemente que está usando o ElasticMQ rodando via Docker na porta 9324 para simular o Amazon SQS localmente.
-  - Mostre a fila `guias` criada com `VisibilityTimeout = 15s`.
-- **0:30 a 1:45 — Dois Consumidores e Divisão de Trabalho:**
-  - Divida a tela com 3 terminais:
-    - Terminal Superior Esquerdo: Consumidor 1 (`python consumidor.py`) destacando o primeiro PID.
-    - Terminal Superior Direito: Consumidor 2 (`python consumidor.py`) destacando o segundo PID.
-    - Terminal Inferior: Produtor (`python produtor.py`).
-  - Execute o produtor enviando as 21 mensagens.
-  - Destaque no vídeo como os dois consumidores dividem as 20 guias em tempo real (PID 1 atendendo uma parte e PID 2 atendendo a outra).
-- **1:45 a 2:40 — Reentrega da Mensagem Inválida e Visibility Timeout:**
-  - Aponte a mensagem inválida falhando com `ValueError: mensagem sem requisicaoId`.
-  - Mostre que o primeiro consumidor não a apagou da fila.
-  - Aguarde 15 segundos em tela e mostre a mensagem reaparecendo (sendo capturada pelo outro consumidor ou reentregue) com `ApproximateReceiveCount: 2`.
-  - Aguarde mais 15 segundos para mostrar a reentrega com `ApproximateReceiveCount: 3`.
-- **2:40 a 3:00 — Conclusão:**
-  - Conclua recapitulando os pilares demonstrados: confirmação explícita (ACK/delete_message), divisão de trabalho concorrente, entrega at-least-once e comportamento do visibility timeout.
-
----
-
-## 7. Seção: Uso de Inteligência Artificial (PO-CESAR-021)
+## 6. Seção: Uso de Inteligência Artificial (PO-CESAR-021)
 
 Em conformidade com as diretrizes da política institucional do CESAR School (PO-CESAR-021):
 
